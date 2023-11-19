@@ -1,0 +1,57 @@
+.line {
+    width: 100%;
+    border-top: 2px green solid;
+    border-bottom: 2px green solid;
+    background-color: aquamarine;
+    text-align: center;
+  }
+  
+  /* Style for the container */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    padding: 20px; 
+    
+  }
+  
+  /* Style for each green box */
+  .card {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #28a745; /* Green color */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row; /* Change flex-direction to row */
+    align-items: center; /* Center items vertically */
+    background-color: rgb(194, 235, 221);
+  }
+  
+  /* Style for the left column (picture) */
+  .picture-column {
+    flex-shrink: 0; /* Prevent column from shrinking */
+    margin-right: 10px;
+  }
+  
+  /* Style for the round picture */
+  .card-img-top {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  /* Style for the right column (info) */
+  .info-column {
+    flex-grow: 1; /* Allow column to grow and take remaining space */
+  }
+  
+  /* Style for the text content */
+  .card-title {
+    margin-bottom: 5px;
+  }
+  
+  .card-text {
+    margin-bottom: 3px;
+  }
